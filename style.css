@@ -1,0 +1,16 @@
+#add-post {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+.post {
+	background: rgb(0, 100, 131);
+	width: 400px;
+	padding: 25px;
+
+	border-radius: 4px;
+}
+.post h3,
+.post p {
+	color: #ffff;
+}
